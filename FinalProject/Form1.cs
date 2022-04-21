@@ -14,27 +14,17 @@ namespace FinalProject
             InitializeComponent();
         }
 
-        private void BindData(string filePath)
-        {
-
-        }
-
-        private void addMenu_btn_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void load_btn_Click(object sender, EventArgs e)
         {
             openFileDialog1 = new OpenFileDialog();
             openFileDialog1.ShowDialog();
-            openFileDialog1.FileName = "data.csv";
+            openFileDialog1.FileName = @"data.csv";
 
             car carInfo = new car();
             string[] carArray;
 
             DataTable dt = new DataTable();
-            dt.Columns.Add("License Number", typeof(string));
+            dt.Columns.Add("LicenseNo", typeof(string));
             dt.Columns.Add("Brand", typeof(string));
             dt.Columns.Add("Model", typeof(string));
             dt.Columns.Add("Color", typeof(string));
@@ -62,7 +52,13 @@ namespace FinalProject
                 }
                 DataView dv = new DataView(dt);
                 dataGridView1.DataSource = dv;
+                sr.Close();
             }
         }
-     }
+
+        private void save_btn_Click(object sender, EventArgs e)
+        {
+            new saveCSV().Export(dataGridView1);
+        }
+    }
 }

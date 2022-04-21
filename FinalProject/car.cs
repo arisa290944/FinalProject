@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject
 {
-    class car
+    public class car
     {
         public string LN { get; set; }
         public string Brand { get; set; }
@@ -16,10 +16,5 @@ namespace FinalProject
         public string TimeIn { get; set; }
         public string DateOut { get; set; }
         public string TimeOut { get; set; }
-
-        public car()
-        {
-
-        }
     }
 }
