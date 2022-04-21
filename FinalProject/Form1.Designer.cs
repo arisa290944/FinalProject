@@ -33,7 +33,6 @@
             this.load_btn = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.label1 = new System.Windows.Forms.Label();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.save_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -111,7 +110,6 @@
         private Button load_btn;
         private VScrollBar vScrollBar1;
         private Label label1;
-        private SaveFileDialog saveFileDialog1;
         private Button save_btn;
     }
 }
