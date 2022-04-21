@@ -1,9 +1,1 @@
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
+[![](https://mermaid.ink/img/pako:eNp90E1rwzAMBuC_InR2IU6ybvg2tt0HvfoiYqULOHJxlMEo_e9z-jFCDtNFsnleBDpjlwKjwyOJqpeJOx2SwOHWvbyl8RRZOYALSdhAqcCTNVBXtt1Vdlftzd_44uW1BL8Z7uXo-jTXUL0KPRtogpdPyhQjR7ALfqQW3BigXjnft9k1rre4_Qc3W_y0ws0Gt1u8X-F2wWhw5DzSEMrVzl4APOoXj-zRlTFwT3NUj14uhc6nQMofYdCU0fUUJzZIs6bDj3ToNM_8QO8DHTONt8_LL95KeKk)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp90E1rwzAMBuC_InR2IU6ybvg2tt0HvfoiYqULOHJxlMEo_e9z-jFCDtNFsnleBDpjlwKjwyOJqpeJOx2SwOHWvbyl8RRZOYALSdhAqcCTNVBXtt1Vdlftzd_44uW1BL8Z7uXo-jTXUL0KPRtogpdPyhQjR7ALfqQW3BigXjnft9k1rre4_Qc3W_y0ws0Gt1u8X-F2wWhw5DzSEMrVzl4APOoXj-zRlTFwT3NUj14uhc6nQMofYdCU0fUUJzZIs6bDj3ToNM_8QO8DHTONt8_LL95KeKk)
