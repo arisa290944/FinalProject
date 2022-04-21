@@ -1,5 +1,5 @@
 # FinalProject
- classDiagram
+classDiagram
     Program <|-- Form1
     Program : +main()
     Form1<|--cars
@@ -8,7 +8,7 @@
         +load_btn_click()
     }
 
-    class cars{
+   class cars{
         +LN(get; set)
         +Brand(get; set)
         +Model(get; set)
