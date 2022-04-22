@@ -35,7 +35,7 @@ namespace FinalProject
                 lines.Add(dataLine.ToString());
             }
             string file = "data.csv";
-            System.IO.File.AppendAllLines(file, lines);
+            System.IO.File.WriteAllLines(file, lines);
 
             return exported;
 
